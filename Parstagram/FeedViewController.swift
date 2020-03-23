@@ -46,7 +46,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     override var canBecomeFirstResponder: Bool {
-        return true
+        return showsCommentBar
     }
     
     override func viewDidAppear(_ animated: Bool) {
